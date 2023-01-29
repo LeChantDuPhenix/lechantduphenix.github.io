@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon site avec une barre de recherche</title>
+  <style>
+     body {
+      background-image: url("poudlard.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .response {
+      display: none;
+      color: green;
+      margin-top: 30px;
+      font-size: 40px;
+    text-align: center;
+    }
+    .bad-response {
+      color: red;
+    }
+    input[type="text"] {
+  font-size: 40px;
+}
+button[type="submit"] {
+  font-size: 40px;
+  }
+  
+  </style>
+
+</head>
+<body>
+
+  <form action="#">
+    <input type="text" id="search-input">
+    <button type="submit">Accio</button>
+    <div class="response">Réponse correcte</div>
+    <div class="response bad-response">Réponse incorrecte</div>
+  </form>
+       <script src="obfuscated.js"></script>
+</body>
+</html>
